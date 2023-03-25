@@ -23,7 +23,7 @@ body {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;
+    width: 97%;
     margin-bottom: 20px;
   }
   
@@ -52,7 +52,8 @@ body {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 97%;
+    height: 150px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
