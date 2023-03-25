@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Form</title>
+  </head>
+  <body>
+    <form method="POST" action="/decrypt_message">
+      <label for="text">Enter Encrypted Message Matrix:</label>
+      <input type="text" id="encrypted_text" name="encrypted_text">
+      <label for="text">Enter password matrix separated by commas:</label>
+      <input type="text" id="password" name="password">
+      <button type="submit">Decrypt</button>
+      <h1>{{ data }}</h1>
+      <button><a href="/">Encrypt</a></button>
+    </form>
+  </body>
+</html>
