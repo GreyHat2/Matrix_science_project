@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Soudom</title>
+    <title>Simple Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   </head>
   <body>
@@ -12,7 +14,7 @@
       <label for="text">Enter password matrix separated by commas:</label>
       <input type="text" id="password" name="password" required>
       <button type="submit">Encrypt</button>
-      <textarea name="textarea" id="textarea" readonly>
+      <textarea name="textarea" id="textarea">
       {{ data }}
       {{ data2 }}
       </textarea>
